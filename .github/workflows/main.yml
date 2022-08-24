@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: my-sample-app
       PROJECT_ID: ${{ secrets.PROJECT_ID }}
-      REGISTRY_URL: eu.gcr.io # You might need to change this
-      HUMANITEC_ORG: my-humanitec-org # Make sure to change this
+      REGISTRY_URL: gcr.io
+      HUMANITEC_ORG: rdstation
 
     steps:
       - name: Checkout
